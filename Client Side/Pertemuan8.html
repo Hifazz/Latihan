@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+	Nama		: Hilmy Fauzanudin S
+	NIM/Kelas	: 19201048/EKSC-1
+	Mata Kuliah	: Client Side
+	-->
+	<meta charset="UTF-8">
+	<title>Belajar Form HTML</title>
+	<link rel="icon" href="https://media.neliti.com/media/organisations/logo-852-stie-asia-e3b3a081.png" type="image/png">
+</head>
+<body>
+
+	<!--Atribut Pattern-->
+	<h2>Atribut Pattern</h2>
+	<form action="prosesform.php" method="get">
+		<p>Plat Kendaraan Jakarta: <input type="text" name="no_id" placeholder="B1111XX" pattern="[B][0-9]+[A-Z]+"></p>
+		<p><input type="submit" value="Kirim Data"></p>
+	</form><hr>
+	
+	<!--Atribut Novalidate-->
+	<h2>Atribut Novalidate</h2>
+	<form action="prosesform.php" method="get" novalidate>
+		<p>Email: <input type="email" name="email"></p>
+		<p>URL: <input type="url" name="url"></p>
+		<p><input type="submit" value="Kirim Data"></p>
+	</form><hr>
+</body>
+</html>

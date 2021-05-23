@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+	Nama		: Hilmy Fauzanudin S
+	NIM/Kelas	: 19201048/EKSC-1
+	Mata Kuliah	: Client Side
+	-->
+	<meta charset="UTF-8">
+	<title>Belajar Form HTML</title>
+	<link rel="icon" href="https://media.neliti.com/media/organisations/logo-852-stie-asia-e3b3a081.png" type="image/png">
+</head>
+<body>
+	<!--Input element type submit-->
+	<h2>Input element type submit</h2>
+	<form action="prosesform.php" method="get">
+		<p>Nama 	: <input type="text" name="nama_user"></p>
+		<p>Alamat : <input type="text" name="alamat_user"></p>
+		<p><input type="submit"></p>
+	</form><hr>
+	
+	<!--Input element type checkbox-->
+	<h2>Input element type checkbox</h2>
+	<form action="prosesform.php" method="get">
+		<p><input type="checkbox" name="persetujuan" value="setuju">
+		Saya setuju dengan syarat dan ketentuan di atas</p>
+		<p><input type="submit" value="Kirim Data"></p>
+	</form><hr>
+	
+	<!--Input element type Radio-->
+	<h2>Input element type Radio</h2>
+	<form action="prosesform.php" method="get">
+		<p><input type="radio" name="jenis_kelamin" value="laki_laki"> Laki-laki</p>
+		<p><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</p>
+		<p><input type="submit" value="Kirim Data"></p>
+	</form><hr>
+	
+	<!--Textarea Element-->
+	<h2>Textarea Element</h2>
+	<form action="prosesform.php" method="get">
+		<p>Alamat : <textarea name="alamat"></textarea></p>
+		<input type="submit" value="Kirim Data"></p>
+	</form><hr>
+	
+	<!--Select & Input Element-->
+	<h2>Select & Input Element</h2>
+	<form action="prosesform.php" method="get">
+		<label for="mobil">Pilih Merek Mobil:</label>
+		<select id="mobil">
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="opel">Opel</option>
+		  <option value="audi">Audi</option>
+		</select><br>
+		<input type="submit" value="Kirim Data"></p>
+	</form><hr>
+</body>
+</html>
